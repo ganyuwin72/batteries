@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="emerald_400">#FF34D399</color>
+    <color name="emerald_500">#FF10B981</color>
+    <color name="emerald_600">#FF059669</color>
+    <color name="emerald_950">#FF022C22</color>
+    <color name="zinc_800">#FF27272A</color>
+    <color name="zinc_900">#FF18181B</color>
+    <color name="zinc_950">#FF09090B</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="black_45">#73000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="amber_400">#FFFBBF24</color>
+</resources>

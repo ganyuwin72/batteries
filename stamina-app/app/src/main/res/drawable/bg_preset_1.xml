@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 预设1: 深紫蓝抽象流动感 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="800dp"
+    android:viewportWidth="400"
+    android:viewportHeight="800">
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M0,0h400v800H0z" />
+    <path
+        android:fillColor="#312E81"
+        android:pathData="M-50,200 Q100,100 200,300 T450,150 V800H-50z" />
+    <path
+        android:fillColor="#4338CA"
+        android:pathData="M0,400 Q200,250 350,450 T500,350 V800H0z" />
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M100,550 Q250,500 400,600 T550,550 V800H100z"
+        android:fillAlpha="0.5" />
+</vector>

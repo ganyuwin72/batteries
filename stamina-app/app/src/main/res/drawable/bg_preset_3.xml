@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 预设3: 温润琥珀暮光 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="800dp"
+    android:viewportWidth="400"
+    android:viewportHeight="800">
+    <path
+        android:fillColor="#451A03"
+        android:pathData="M0,0h400v800H0z" />
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M-50,150 Q100,50 200,300 T450,200 V800H-50z" />
+    <path
+        android:fillColor="#92400E"
+        android:pathData="M0,350 Q200,250 350,500 T500,400 V800H0z" />
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M100,550 Q250,500 400,650 T550,600 V800H100z"
+        android:fillAlpha="0.5" />
+</vector>
