@@ -220,7 +220,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     /** 刷新桌面小组件 */
-    private fun refreshWidget() {
+    private suspend fun refreshWidget() {
         try {
             StaminaWidget.updateWidget(getApplication())
         } catch (_: Exception) {
