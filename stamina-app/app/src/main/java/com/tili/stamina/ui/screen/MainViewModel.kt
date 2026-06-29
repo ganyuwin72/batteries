@@ -1,7 +1,7 @@
 package com.tili.stamina.ui.screen
 
 import android.app.Application
-import android.net.Uri
+
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.tili.stamina.data.StaminaCalculator

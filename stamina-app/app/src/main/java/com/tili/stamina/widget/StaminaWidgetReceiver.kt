@@ -5,7 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.util.Log
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
-import androidx.glance.appwidget.state.updateAppWidgetState
+
 import com.tili.stamina.data.PreferencesManager
 import com.tili.stamina.data.StaminaCalculator
 
