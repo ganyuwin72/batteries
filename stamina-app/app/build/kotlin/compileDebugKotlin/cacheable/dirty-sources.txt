@@ -1,0 +1,17 @@
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\screen\MainViewModel.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\MainActivity.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\theme\Color.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\theme\Theme.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\StaminaApplication.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\component\RecoveryPanel.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\theme\Type.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\screen\MainScreen.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\component\ConsumePanel.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\component\StaminaRing.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\data\PreferencesManager.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\data\StaminaCalculator.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\widget\StaminaWidget.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\data\StaminaRepository.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\component\BackgroundPicker.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\ui\screen\ThemeScreen.kt
+F:\Work\tili\stamina-app\app\src\main\java\com\tili\stamina\widget\StaminaWidgetReceiver.kt

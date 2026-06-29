@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/xml_stamina_widget_info.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/xml/stamina_widget_info.xml"
+    },
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/drawable_bg_preset_3.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/drawable/bg_preset_3.xml"
+    },
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/drawable_bg_preset_2.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/drawable/bg_preset_2.xml"
+    },
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/drawable_bg_preset_1.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/drawable/bg_preset_1.xml"
+    },
+    {
+        "merged": "com.tili.stamina.app-merged_res-69:/layout_widget_layout_placeholder.xml.flat",
+        "source": "com.tili.stamina.app-main-71:/layout/widget_layout_placeholder.xml"
+    }
+]

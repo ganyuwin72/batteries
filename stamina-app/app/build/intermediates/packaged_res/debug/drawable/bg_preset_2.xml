@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 预设2: 暗夜森林静谧感 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="800dp"
+    android:viewportWidth="400"
+    android:viewportHeight="800">
+    <path
+        android:fillColor="#064E3B"
+        android:pathData="M0,0h400v800H0z" />
+    <path
+        android:fillColor="#065F46"
+        android:pathData="M-50,100 Q150,50 250,250 T450,100 V800H-50z" />
+    <path
+        android:fillColor="#047857"
+        android:pathData="M0,300 Q200,200 350,400 T500,300 V800H0z" />
+    <path
+        android:fillColor="#059669"
+        android:pathData="M50,500 Q250,450 400,550 T550,500 V800H50z"
+        android:fillAlpha="0.4" />
+</vector>
