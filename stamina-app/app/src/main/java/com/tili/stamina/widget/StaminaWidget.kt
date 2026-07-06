@@ -5,9 +5,6 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.glance.ColorFilter
 import androidx.glance.GlanceId
 import androidx.glance.GlanceModifier
@@ -15,20 +12,20 @@ import androidx.glance.GlanceTheme
 import androidx.glance.Image
 import androidx.glance.ImageProvider
 import androidx.glance.LocalContext
-import androidx.glance.action.Action
+import androidx.glance.action.ActionParameters
 import androidx.glance.action.actionParametersOf
 import androidx.glance.action.clickable
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetManager
 import androidx.glance.appwidget.action.actionRunCallback
-import androidx.glance.appwidget.action.actionStartActivity
 import androidx.glance.appwidget.background
 import androidx.glance.appwidget.cornerRadius
 import androidx.glance.appwidget.provideContent
-import androidx.glance.background
+import androidx.glance.Color
+import androidx.glance.ColorProvider
+import androidx.glance.unit.dp
 import androidx.glance.layout.Alignment
 import androidx.glance.layout.Box
-import androidx.glance.layout.defaultWeight
 import androidx.glance.layout.Column
 import androidx.glance.layout.Row
 import androidx.glance.layout.Spacer
@@ -42,7 +39,6 @@ import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
 import androidx.glance.text.TextAlign
 import androidx.glance.text.TextStyle
-import com.tili.stamina.R
 import com.tili.stamina.data.PreferencesManager
 import com.tili.stamina.data.StaminaCalculator
 import com.tili.stamina.data.WidgetState
@@ -129,6 +125,13 @@ fun WidgetContent(state: WidgetState) {
     val context = LocalContext.current
     val progress = (state.currentStamina.toFloat() / state.maxStamina).coerceIn(0f, 1f)
 
+    // 预加载背景图片（不能在 composable 内部 try-catch）
+    val bgBitmap: Bitmap? = if (state.widgetBgUri.isNotEmpty()) {
+        loadWidgetBitmap(context, state.widgetBgUri)
+    } else {
+        null
+    }
+
     Box(
         modifier = GlanceModifier
             .fillMaxSize()
@@ -136,26 +139,20 @@ fun WidgetContent(state: WidgetState) {
             .cornerRadius(24.dp)
     ) {
         // ── 背景图片 ──
-        if (state.widgetBgUri.isNotEmpty()) {
-            try {
-                val bitmap = loadWidgetBitmap(context, state.widgetBgUri)
-                if (bitmap != null) {
-                    Image(
-                        provider = ImageProvider(bitmap),
-                        contentDescription = null,
-                        modifier = GlanceModifier.fillMaxSize()
-                    )
-                }
-            } catch (_: Exception) {
-                // 加载失败则显示默认背景
-            }
+        if (bgBitmap != null) {
+            Image(
+                provider = ImageProvider(bgBitmap),
+                contentDescription = null,
+                modifier = GlanceModifier.fillMaxSize()
+            )
         }
 
         // ── 半透明遮罩层 ──
         Box(
             modifier = GlanceModifier
                 .fillMaxSize()
-                .background(Color.Black.copy(alpha = 0.45f))
+                .background(ColorProvider(Color.Black.copy(alpha = 0.45f))),
+            content = {}
         )
 
         // ── 前景内容 ──
@@ -167,7 +164,7 @@ fun WidgetContent(state: WidgetState) {
             // 顶部：标题 + 体力数字
             Row(
                 modifier = GlanceModifier.fillMaxWidth(),
-                horizontalAlignment = Alignment.Top
+                verticalAlignment = Alignment.Top
             ) {
                 // 左侧：图标 + 标题 + 倒计时
                 Column(modifier = GlanceModifier.defaultWeight()) {
@@ -175,7 +172,7 @@ fun WidgetContent(state: WidgetState) {
                         Box(
                             modifier = GlanceModifier
                                 .size(24.dp)
-                                .background(Color(0xFF10B981))
+                                .background(ColorProvider(Color(0xFF10B981L)))
                                 .cornerRadius(6.dp),
                             contentAlignment = Alignment.Center
                         ) {
@@ -193,7 +190,7 @@ fun WidgetContent(state: WidgetState) {
                                 style = TextStyle(
                                     fontSize = 12.sp,
                                     fontWeight = FontWeight.Bold,
-                                    color = Color.White
+                                    color = ColorProvider(Color.White)
                                 )
                             )
                             Text(
@@ -205,9 +202,9 @@ fun WidgetContent(state: WidgetState) {
                                 style = TextStyle(
                                     fontSize = 10.sp,
                                     color = if (state.isFull)
-                                        Color(0xFF34D399)
+                                        ColorProvider(Color(0xFF34D399L))
                                     else
-                                        Color.White.copy(alpha = 0.7f)
+                                        ColorProvider(Color.White.copy(alpha = 0.7f))
                                 )
                             )
                         }
@@ -221,8 +218,8 @@ fun WidgetContent(state: WidgetState) {
                             text = state.currentStamina.toString(),
                             style = TextStyle(
                                 fontSize = 30.sp,
-                                fontWeight = FontWeight.Black,
-                                color = Color.White
+                                fontWeight = FontWeight.Bold,
+                                color = ColorProvider(Color.White)
                             )
                         )
                         Text(
@@ -230,7 +227,7 @@ fun WidgetContent(state: WidgetState) {
                             style = TextStyle(
                                 fontSize = 10.sp,
                                 fontWeight = FontWeight.Bold,
-                                color = Color.White.copy(alpha = 0.6f)
+                                color = ColorProvider(Color.White.copy(alpha = 0.6f))
                             )
                         )
                     }
@@ -239,31 +236,20 @@ fun WidgetContent(state: WidgetState) {
 
             Spacer(modifier = GlanceModifier.height(8.dp))
 
-            // ── 进度条（使用 Row + weight 实现 Glance 兼容的百分比宽度）──
+            // ── 进度条（使用 fillMaxWidth(fraction) 实现百分比宽度）──
             Row(
                 modifier = GlanceModifier
                     .fillMaxWidth()
                     .height(8.dp)
-                    .cornerRadius(4.dp)
             ) {
                 // 已填充部分（翠绿色）
-                if (state.currentStamina > 0) {
-                    Box(
-                        modifier = GlanceModifier
-                            .defaultWeight(state.currentStamina.toFloat())
-                            .height(8.dp)
-                            .background(Color(0xFF34D399))
-                    )
-                }
-                // 未填充部分（半透明白色）
-                if (state.maxStamina - state.currentStamina > 0) {
-                    Box(
-                        modifier = GlanceModifier
-                            .defaultWeight((state.maxStamina - state.currentStamina).toFloat())
-                            .height(8.dp)
-                            .background(Color.White.copy(alpha = 0.15f))
-                    )
-                }
+                Box(
+                    modifier = GlanceModifier
+                        .fillMaxWidth(progress)
+                        .height(8.dp)
+                        .background(ColorProvider(Color(0xFF34D399L))),
+                    content = {}
+                )
             }
 
             Spacer(modifier = GlanceModifier.height(8.dp))
@@ -271,14 +257,14 @@ fun WidgetContent(state: WidgetState) {
             // ── 底部：快捷消耗按钮 ──
             Row(
                 modifier = GlanceModifier.fillMaxWidth(),
-                horizontalAlignment = Alignment.CenterHorizontally
+                verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
                     text = "快捷消耗:",
                     style = TextStyle(
                         fontSize = 9.sp,
                         fontWeight = FontWeight.Bold,
-                        color = Color.White.copy(alpha = 0.6f)
+                        color = ColorProvider(Color.White.copy(alpha = 0.6f))
                     )
                 )
 
@@ -287,11 +273,13 @@ fun WidgetContent(state: WidgetState) {
                 // -20 按钮
                 Box(
                     modifier = GlanceModifier
-                        .background(Color.White.copy(alpha = 0.15f))
+                        .background(ColorProvider(Color.White.copy(alpha = 0.15f)))
                         .cornerRadius(8.dp)
                         .clickable(
                             actionRunCallback<ConsumeCallback>(
-                                actionParametersOf(ConsumeCallback.KEY_POINTS to 20)
+                                actionParametersOf(
+                                    ActionParameters.Key<Int>(ConsumeCallback.KEY_POINTS) to 20
+                                )
                             )
                         )
                         .padding(horizontal = 12.dp, vertical = 6.dp)
@@ -300,8 +288,8 @@ fun WidgetContent(state: WidgetState) {
                         text = "-20",
                         style = TextStyle(
                             fontSize = 11.sp,
-                            fontWeight = FontWeight.Black,
-                            color = Color.White
+                            fontWeight = FontWeight.Bold,
+                            color = ColorProvider(Color.White)
                         )
                     )
                 }
@@ -311,11 +299,13 @@ fun WidgetContent(state: WidgetState) {
                 // -40 按钮
                 Box(
                     modifier = GlanceModifier
-                        .background(Color.White.copy(alpha = 0.15f))
+                        .background(ColorProvider(Color.White.copy(alpha = 0.15f)))
                         .cornerRadius(8.dp)
                         .clickable(
                             actionRunCallback<ConsumeCallback>(
-                                actionParametersOf(ConsumeCallback.KEY_POINTS to 40)
+                                actionParametersOf(
+                                    ActionParameters.Key<Int>(ConsumeCallback.KEY_POINTS) to 40
+                                )
                             )
                         )
                         .padding(horizontal = 12.dp, vertical = 6.dp)
@@ -324,8 +314,8 @@ fun WidgetContent(state: WidgetState) {
                         text = "-40",
                         style = TextStyle(
                             fontSize = 11.sp,
-                            fontWeight = FontWeight.Black,
-                            color = Color.White
+                            fontWeight = FontWeight.Bold,
+                            color = ColorProvider(Color.White)
                         )
                     )
                 }

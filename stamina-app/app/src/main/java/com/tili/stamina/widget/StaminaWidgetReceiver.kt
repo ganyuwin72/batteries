@@ -4,6 +4,8 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
+import androidx.glance.action.ActionParameters
+import androidx.glance.GlanceId
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
 
 import com.tili.stamina.data.PreferencesManager
@@ -38,10 +40,10 @@ class ConsumeCallback : androidx.glance.appwidget.action.ActionCallback {
 
     override suspend fun onAction(
         context: Context,
-        glanceId: androidx.glance.GlanceId,
-        parameters: android.os.Bundle
+        glanceId: GlanceId,
+        parameters: ActionParameters
     ) {
-        val points = parameters.getInt(KEY_POINTS, 0)
+        val points = parameters[ActionParameters.Key<Int>(KEY_POINTS)] ?: 0
         if (points <= 0) return
 
         try {
