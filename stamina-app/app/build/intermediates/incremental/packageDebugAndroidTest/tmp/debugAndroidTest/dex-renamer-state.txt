@@ -1,0 +1,4 @@
+#Tue Jul 07 16:43:02 CST 2026
+base.0=F\:\\Work\\tili\\stamina-app\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
