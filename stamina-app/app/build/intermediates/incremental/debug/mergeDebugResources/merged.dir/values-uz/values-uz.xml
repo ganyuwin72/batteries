@@ -51,6 +51,7 @@
     <string msgid="1890207353314751437" name="dropdown_menu">"Pastga ochiluvchi menyu"</string>
     <string msgid="5974471714631304645" name="expanded">"Yoyilgan"</string>
     <string msgid="2863935784364843033" name="glance_error_layout_text">"Muayyan xatoni "<b><tt>"adb logcat"</tt></b>" yordamida tekshiring va "<b><tt>"GlanceAppWidget"</tt>" qatorini qidiring"</b></string>
+    <string msgid="5191168365305634625" name="glance_error_layout_text_v2">"Kontent chiqmaydi"</string>
     <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Glance ilova vidjeti xatosi"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"Bajarilmoqda"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Qisman belgilandi"</string>

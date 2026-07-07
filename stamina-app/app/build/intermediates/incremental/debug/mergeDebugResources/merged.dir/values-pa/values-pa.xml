@@ -51,6 +51,7 @@
     <string msgid="1890207353314751437" name="dropdown_menu">"ਡ੍ਰੌਪ-ਡਾਊਨ ਮੀਨੂ"</string>
     <string msgid="5974471714631304645" name="expanded">"ਵਿਸਤਾਰ ਕੀਤਾ ਗਿਆ"</string>
     <string msgid="2863935784364843033" name="glance_error_layout_text"><b><tt>"adb logcat"</tt>" ਦੀ ਵਰਤੋਂ ਨਾਲ "</b>", "<b><tt>"GlanceAppWidget"</tt></b>" ਦੀ ਖੋਜ ਕਰ ਕੇ ਸਟੀਕ ਗੜਬੜ ਦੀ ਜਾਂਚ ਕਰੋ"</string>
+    <string msgid="5191168365305634625" name="glance_error_layout_text_v2">"ਸਮੱਗਰੀ ਨਹੀਂ ਦਿਖਾਈ ਜਾ ਸਕਦੀ"</string>
     <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Glance ਐਪ ਵਿਜੇਟ ਸੰਬੰਧੀ ਗੜਬੜ"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"ਜਾਰੀ ਹੈ"</string>
     <string msgid="7933458017204019916" name="indeterminate">"ਅੰਸ਼ਕ ਤੌਰ ਤੇ ਜਾਂਚ ਕੀਤੀ ਗਈ"</string>

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tili.stamina"
     android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionName="1.1.0" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -92,7 +92,8 @@
             android:name="androidx.glance.appwidget.action.ActionTrampolineActivity"
             android:enabled="true"
             android:excludeFromRecents="true"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@android:style/Theme.NoDisplay" />
         <activity
             android:name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
             android:enabled="true"
@@ -104,6 +105,10 @@
 
         <receiver
             android:name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.glance.appwidget.UnmanagedSessionReceiver"
             android:enabled="true"
             android:exported="false" />
         <receiver

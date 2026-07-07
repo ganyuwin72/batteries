@@ -26,4 +26,5 @@
     <color name="glance_colorSurfaceVariant">@android:color/system_neutral2_700</color>
     <color name="glance_colorTertiary">@android:color/system_accent3_200</color>
     <color name="glance_colorTertiaryContainer">@android:color/system_accent3_700</color>
+    <color name="glance_colorWidgetBackground">@android:color/system_accent2_800</color>
 </resources>

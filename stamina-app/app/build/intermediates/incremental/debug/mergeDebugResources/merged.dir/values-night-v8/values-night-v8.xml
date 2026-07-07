@@ -26,4 +26,5 @@
     <color name="glance_colorSurfaceVariant">#ff49454f</color>
     <color name="glance_colorTertiary">#ffefb8c8</color>
     <color name="glance_colorTertiaryContainer">#ff633b48</color>
+    <color name="glance_colorWidgetBackground">#ff20333d</color>
 </resources>

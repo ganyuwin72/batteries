@@ -3,10 +3,9 @@ package com.tili.stamina.widget
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.net.Uri
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import androidx.glance.ColorFilter
+import androidx.core.net.toUri
 import androidx.glance.GlanceId
 import androidx.glance.GlanceModifier
 import androidx.glance.GlanceTheme
@@ -19,12 +18,13 @@ import androidx.glance.action.clickable
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetManager
 import androidx.glance.appwidget.action.actionRunCallback
-import androidx.glance.appwidget.background
+import androidx.glance.background
+import androidx.glance.appwidget.LinearProgressIndicator
 import androidx.glance.appwidget.cornerRadius
 import androidx.glance.appwidget.provideContent
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.glance.unit.ColorProvider
-import androidx.glance.unit.dp
-import androidx.glance.unit.sp
 import androidx.glance.layout.Alignment
 import androidx.glance.layout.Box
 import androidx.glance.layout.Column
@@ -38,7 +38,6 @@ import androidx.glance.layout.size
 import androidx.glance.layout.width
 import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
-import androidx.glance.text.TextAlign
 import androidx.glance.text.TextStyle
 import com.tili.stamina.data.PreferencesManager
 import com.tili.stamina.data.StaminaCalculator
@@ -152,7 +151,7 @@ fun WidgetContent(state: WidgetState) {
         Box(
             modifier = GlanceModifier
                 .fillMaxSize()
-                .background(ColorProvider(Color.Black.copy(alpha = 0.45f))),
+                .background(Color.Black.copy(alpha = 0.45f)),
             content = {}
         )
 
@@ -173,7 +172,7 @@ fun WidgetContent(state: WidgetState) {
                         Box(
                             modifier = GlanceModifier
                                 .size(24.dp)
-                                .background(ColorProvider(Color(0xFF10B981L)))
+                                .background(Color(0xFF10B981L))
                                 .cornerRadius(6.dp),
                             contentAlignment = Alignment.Center
                         ) {
@@ -191,7 +190,7 @@ fun WidgetContent(state: WidgetState) {
                                 style = TextStyle(
                                     fontSize = 12.sp,
                                     fontWeight = FontWeight.Bold,
-                                    color = ColorProvider(Color.White)
+                                    color = FixedColor(Color.White)
                                 )
                             )
                             Text(
@@ -203,9 +202,9 @@ fun WidgetContent(state: WidgetState) {
                                 style = TextStyle(
                                     fontSize = 10.sp,
                                     color = if (state.isFull)
-                                        ColorProvider(Color(0xFF34D399L))
+                                        FixedColor(Color(0xFF34D399L))
                                     else
-                                        ColorProvider(Color.White.copy(alpha = 0.7f))
+                                        FixedColor(Color.White.copy(alpha = 0.7f))
                                 )
                             )
                         }
@@ -220,7 +219,7 @@ fun WidgetContent(state: WidgetState) {
                             style = TextStyle(
                                 fontSize = 30.sp,
                                 fontWeight = FontWeight.Bold,
-                                color = ColorProvider(Color.White)
+                                color = FixedColor(Color.White)
                             )
                         )
                         Text(
@@ -228,7 +227,7 @@ fun WidgetContent(state: WidgetState) {
                             style = TextStyle(
                                 fontSize = 10.sp,
                                 fontWeight = FontWeight.Bold,
-                                color = ColorProvider(Color.White.copy(alpha = 0.6f))
+                                color = FixedColor(Color.White.copy(alpha = 0.6f))
                             )
                         )
                     }
@@ -237,21 +236,15 @@ fun WidgetContent(state: WidgetState) {
 
             Spacer(modifier = GlanceModifier.height(8.dp))
 
-            // ── 进度条（使用 fillMaxWidth(fraction) 实现百分比宽度）──
-            Row(
+            // ── 进度条 ──
+            LinearProgressIndicator(
+                progress = progress,
                 modifier = GlanceModifier
                     .fillMaxWidth()
-                    .height(8.dp)
-            ) {
-                // 已填充部分（翠绿色）
-                Box(
-                    modifier = GlanceModifier
-                        .fillMaxWidth(progress)
-                        .height(8.dp)
-                        .background(ColorProvider(Color(0xFF34D399L))),
-                    content = {}
-                )
-            }
+                    .height(8.dp),
+                color = FixedColor(Color(0xFF34D399L)),
+                backgroundColor = FixedColor(Color.White.copy(alpha = 0.25f))
+            )
 
             Spacer(modifier = GlanceModifier.height(8.dp))
 
@@ -265,7 +258,7 @@ fun WidgetContent(state: WidgetState) {
                     style = TextStyle(
                         fontSize = 9.sp,
                         fontWeight = FontWeight.Bold,
-                        color = ColorProvider(Color.White.copy(alpha = 0.6f))
+                        color = FixedColor(Color.White.copy(alpha = 0.6f))
                     )
                 )
 
@@ -274,7 +267,7 @@ fun WidgetContent(state: WidgetState) {
                 // -20 按钮
                 Box(
                     modifier = GlanceModifier
-                        .background(ColorProvider(Color.White.copy(alpha = 0.15f)))
+                        .background(Color.White.copy(alpha = 0.15f))
                         .cornerRadius(8.dp)
                         .clickable(
                             actionRunCallback<ConsumeCallback>(
@@ -290,7 +283,7 @@ fun WidgetContent(state: WidgetState) {
                         style = TextStyle(
                             fontSize = 11.sp,
                             fontWeight = FontWeight.Bold,
-                            color = ColorProvider(Color.White)
+                            color = FixedColor(Color.White)
                         )
                     )
                 }
@@ -300,7 +293,7 @@ fun WidgetContent(state: WidgetState) {
                 // -40 按钮
                 Box(
                     modifier = GlanceModifier
-                        .background(ColorProvider(Color.White.copy(alpha = 0.15f)))
+                        .background(Color.White.copy(alpha = 0.15f))
                         .cornerRadius(8.dp)
                         .clickable(
                             actionRunCallback<ConsumeCallback>(
@@ -316,7 +309,7 @@ fun WidgetContent(state: WidgetState) {
                         style = TextStyle(
                             fontSize = 11.sp,
                             fontWeight = FontWeight.Bold,
-                            color = ColorProvider(Color.White)
+                            color = FixedColor(Color.White)
                         )
                     )
                 }
@@ -325,10 +318,18 @@ fun WidgetContent(state: WidgetState) {
     }
 }
 
+/**
+ * 自定义 ColorProvider — 绕过 Glance 库内部的 @RestrictTo 限制。
+ * 直接实现公开的 [ColorProvider] 接口，和 FixedColorProvider 等效但无 lint 报错。
+ */
+class FixedColor(private val color: Color) : ColorProvider {
+    override fun getColor(context: Context): Color = color
+}
+
 /** 从 URI 加载小组件用的 Bitmap（已压缩） */
 private fun loadWidgetBitmap(context: Context, uriString: String): Bitmap? {
     return try {
-        val uri = Uri.parse(uriString)
+        val uri = uriString.toUri()
         val inputStream = context.contentResolver.openInputStream(uri) ?: return null
         val options = BitmapFactory.Options().apply {
             // 小组件图片最大尺寸限制在 400x400 以内

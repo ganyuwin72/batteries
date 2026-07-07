@@ -30,9 +30,9 @@ MERGED from [androidx.navigation:navigation-runtime:2.7.6] C:\Users\yant\.gradle
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\yant\.gradle\caches\transforms-3\eb8dfc63ef50d2a35d53ab70bcb34afe\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\yant\.gradle\caches\transforms-3\68b7ce996d29b490a4c93e7756151fa3\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-compose:2.7.6] C:\Users\yant\.gradle\caches\transforms-3\ede9122c90baefc637940624e5a4f861\transformed\navigation-compose-2.7.6\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.glance:glance:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\ff584fe8b649bd4359f149aa7f4918b3\transformed\glance-1.0.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:17:1-56:12
-MERGED from [androidx.glance:glance-material3:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\2085d4d7173edef82bba622809dc55cd\transformed\glance-material3-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:17:1-61:12
+MERGED from [androidx.glance:glance:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\cfe756bd3b82b68c09fecfc66d2f6c07\transformed\glance-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.glance:glance-material3:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\9500da38e8840574517f7128892f9ca9\transformed\glance-material3-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\yant\.gradle\caches\transforms-3\e20c1e748e27cb24706a60fab3ed0416\transformed\material3-1.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\48626e2c5edb61ac833481e0506c93e3\transformed\coil-compose-2.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\ca6e351f4f3f74ad55495b0d4893083a\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:2:1-7:12
@@ -40,7 +40,7 @@ MERGED from [io.coil-kt:coil:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\7b
 MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\56012b87fbcd345912dd19b13d7ccdb2\transformed\coil-base-2.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\076d8f7edaad13469d92c51ab804f23a\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yant\.gradle\caches\transforms-3\760c49e260287e65438a700d022f8c6b\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\3a36dac443a5729f8e25a6a2abb71879\transformed\work-runtime-ktx-2.9.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\e5a20f1fc905537ac2a8b3c08e5cd9c7\transformed\work-runtime-2.9.0\AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.compose.material:material-ripple-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\ba9482a6493b750c15f705c2e3612c07\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
@@ -87,18 +87,18 @@ MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\yant\.gradle\caches\
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\yant\.gradle\caches\transforms-3\32b40584c1c897379325d96151333602\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\028e36d3428b11cbf357d0f4c59c0bb4\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\7b8a049e3b169643c792110e3360d85d\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\bff6aab3e889d4f7d8df9e34f3876555\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\daf6070c3a2060157fd349e2c79b821f\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\cd9c810abba83d2a05028f221d0eb6cd\transformed\room-ktx-2.5.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\6475d1d867afceee211b1d06f64fe7a5\transformed\room-runtime-2.5.0\AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yant\.gradle\caches\transforms-3\f8f571bcc53804d47063e31e1c2b507f\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\yant\.gradle\caches\transforms-3\a667965df92ed2d22f4e1ea0c8cc5625\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\bff6aab3e889d4f7d8df9e34f3876555\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\daf6070c3a2060157fd349e2c79b821f\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\yant\.gradle\caches\transforms-3\44a40a322fac09e4cf54e74e684a8ada\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\yant\.gradle\caches\transforms-3\fbab0c0f6a357f1004a9d278b7fae25c\transformed\sqlite-2.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yant\.gradle\caches\transforms-3\a80f11189515b49da8eeba05c8021fb4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yant\.gradle\caches\transforms-3\c420bb1138b5734b642235e867f979eb\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yant\.gradle\caches\transforms-3\5a2501bcdebea8d28cf49dafb7ffa949\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yant\.gradle\caches\transforms-3\6ff610d5b5eece47f38e51599785a189\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\9c3c5103c05a0f062c4aa72715398688\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yant\.gradle\caches\transforms-3\6ff610d5b5eece47f38e51599785a189\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\8ed7be0de195e25f997f37fd1157ea40\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\yant\.gradle\caches\transforms-3\f3a569fbc70db4a1f38dd7e07e1918cd\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 	package
@@ -130,10 +130,10 @@ MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\yant\.gradle\caches\tran
 application
 ADDED from F:\Work\tili\stamina-app\app\src\main\AndroidManifest.xml:13:5-58:19
 INJECTED from F:\Work\tili\stamina-app\app\src\main\AndroidManifest.xml:13:5-58:19
-MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:22:5-54:19
-MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:22:5-54:19
-MERGED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:23:5-28:19
-MERGED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:22:5-59:19
+MERGED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:22:5-59:19
+MERGED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:23:5-28:19
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\e5a20f1fc905537ac2a8b3c08e5cd9c7\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\e5a20f1fc905537ac2a8b3c08e5cd9c7\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\e870c39d11391e94292e712d09da0b2c\transformed\ui-test-manifest-1.6.0\AndroidManifest.xml:22:5-26:19
@@ -230,12 +230,12 @@ MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\yant\.gr
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] C:\Users\yant\.gradle\caches\transforms-3\68b7ce996d29b490a4c93e7756151fa3\transformed\navigation-runtime-ktx-2.7.6\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-compose:2.7.6] C:\Users\yant\.gradle\caches\transforms-3\ede9122c90baefc637940624e5a4f861\transformed\navigation-compose-2.7.6\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-compose:2.7.6] C:\Users\yant\.gradle\caches\transforms-3\ede9122c90baefc637940624e5a4f861\transformed\navigation-compose-2.7.6\AndroidManifest.xml:5:5-44
-MERGED from [androidx.glance:glance:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\ff584fe8b649bd4359f149aa7f4918b3\transformed\glance-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.glance:glance:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\ff584fe8b649bd4359f149aa7f4918b3\transformed\glance-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.glance:glance-material3:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\2085d4d7173edef82bba622809dc55cd\transformed\glance-material3-1.0.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.glance:glance-material3:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\2085d4d7173edef82bba622809dc55cd\transformed\glance-material3-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.glance:glance:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\cfe756bd3b82b68c09fecfc66d2f6c07\transformed\glance-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\cfe756bd3b82b68c09fecfc66d2f6c07\transformed\glance-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-material3:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\9500da38e8840574517f7128892f9ca9\transformed\glance-material3-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-material3:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\9500da38e8840574517f7128892f9ca9\transformed\glance-material3-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\yant\.gradle\caches\transforms-3\e20c1e748e27cb24706a60fab3ed0416\transformed\material3-1.1.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\yant\.gradle\caches\transforms-3\e20c1e748e27cb24706a60fab3ed0416\transformed\material3-1.1.2\AndroidManifest.xml:20:5-44
 MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\48626e2c5edb61ac833481e0506c93e3\transformed\coil-compose-2.5.0\AndroidManifest.xml:5:5-44
@@ -250,8 +250,8 @@ MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\yan
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\076d8f7edaad13469d92c51ab804f23a\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yant\.gradle\caches\transforms-3\760c49e260287e65438a700d022f8c6b\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yant\.gradle\caches\transforms-3\760c49e260287e65438a700d022f8c6b\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\3a36dac443a5729f8e25a6a2abb71879\transformed\work-runtime-ktx-2.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\3a36dac443a5729f8e25a6a2abb71879\transformed\work-runtime-ktx-2.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\e5a20f1fc905537ac2a8b3c08e5cd9c7\transformed\work-runtime-2.9.0\AndroidManifest.xml:21:5-44
@@ -344,16 +344,16 @@ MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\yant\.grad
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\028e36d3428b11cbf357d0f4c59c0bb4\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\7b8a049e3b169643c792110e3360d85d\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\7b8a049e3b169643c792110e3360d85d\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\bff6aab3e889d4f7d8df9e34f3876555\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\bff6aab3e889d4f7d8df9e34f3876555\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\daf6070c3a2060157fd349e2c79b821f\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\daf6070c3a2060157fd349e2c79b821f\transformed\runtime-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\cd9c810abba83d2a05028f221d0eb6cd\transformed\room-ktx-2.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\cd9c810abba83d2a05028f221d0eb6cd\transformed\room-ktx-2.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\6475d1d867afceee211b1d06f64fe7a5\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.5.0] C:\Users\yant\.gradle\caches\transforms-3\6475d1d867afceee211b1d06f64fe7a5\transformed\room-runtime-2.5.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yant\.gradle\caches\transforms-3\f8f571bcc53804d47063e31e1c2b507f\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yant\.gradle\caches\transforms-3\f8f571bcc53804d47063e31e1c2b507f\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\yant\.gradle\caches\transforms-3\a667965df92ed2d22f4e1ea0c8cc5625\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\yant\.gradle\caches\transforms-3\a667965df92ed2d22f4e1ea0c8cc5625\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\bff6aab3e889d4f7d8df9e34f3876555\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\bff6aab3e889d4f7d8df9e34f3876555\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\daf6070c3a2060157fd349e2c79b821f\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\yant\.gradle\caches\transforms-3\daf6070c3a2060157fd349e2c79b821f\transformed\runtime-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\yant\.gradle\caches\transforms-3\44a40a322fac09e4cf54e74e684a8ada\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.3.0] C:\Users\yant\.gradle\caches\transforms-3\44a40a322fac09e4cf54e74e684a8ada\transformed\sqlite-framework-2.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.3.0] C:\Users\yant\.gradle\caches\transforms-3\fbab0c0f6a357f1004a9d278b7fae25c\transformed\sqlite-2.3.0\AndroidManifest.xml:20:5-44
@@ -364,10 +364,10 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yant\.gradle\caches
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yant\.gradle\caches\transforms-3\c420bb1138b5734b642235e867f979eb\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yant\.gradle\caches\transforms-3\5a2501bcdebea8d28cf49dafb7ffa949\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yant\.gradle\caches\transforms-3\5a2501bcdebea8d28cf49dafb7ffa949\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yant\.gradle\caches\transforms-3\6ff610d5b5eece47f38e51599785a189\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yant\.gradle\caches\transforms-3\6ff610d5b5eece47f38e51599785a189\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\9c3c5103c05a0f062c4aa72715398688\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\9c3c5103c05a0f062c4aa72715398688\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yant\.gradle\caches\transforms-3\6ff610d5b5eece47f38e51599785a189\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yant\.gradle\caches\transforms-3\6ff610d5b5eece47f38e51599785a189\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\8ed7be0de195e25f997f37fd1157ea40\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\8ed7be0de195e25f997f37fd1157ea40\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\yant\.gradle\caches\transforms-3\f3a569fbc70db4a1f38dd7e07e1918cd\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -377,69 +377,79 @@ MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\yant\.gradle\c
 	android:minSdkVersion
 		INJECTED from F:\Work\tili\stamina-app\app\src\main\AndroidManifest.xml
 activity#androidx.glance.appwidget.action.ActionTrampolineActivity
-ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:23:9-27:40
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:23:9-28:62
 	android:enabled
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:25:13-35
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:25:13-35
 	android:excludeFromRecents
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:26:13-46
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:26:13-46
 	android:exported
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:24:13-85
-activity#androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
-ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:28:9-35:81
-	android:enabled
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:30:13-35
-	android:launchMode
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:32:13-48
-	android:noHistory
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:33:13-37
-	android:exported
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:31:13-37
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:27:13-37
 	android:theme
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:35:13-78
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:24:13-85
+activity#androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:29:9-36:81
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:31:13-35
+	android:launchMode
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:33:13-48
+	android:noHistory
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:34:13-37
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:32:13-37
+	android:theme
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:36:13-78
 	android:taskAffinity
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:34:13-91
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:35:13-91
 	android:name
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:29:13-94
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:30:13-94
 receiver#androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver
-ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:37:9-40:40
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:38:9-41:40
 	android:enabled
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:39:13-35
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:40:13-35
 	android:exported
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:40:13-37
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:38:13-92
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:39:13-92
+receiver#androidx.glance.appwidget.UnmanagedSessionReceiver
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:42:9-45:40
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:43:13-78
 receiver#androidx.glance.appwidget.MyPackageReplacedReceiver
-ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:41:9-48:20
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:46:9-53:20
 	android:enabled
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:43:13-35
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:48:13-35
 	android:exported
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:44:13-37
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:42:13-79
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:47:13-79
 intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:45:13-47:29
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:50:13-52:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:46:17-84
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:51:17-84
 	android:name
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:46:25-81
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:51:25-81
 service#androidx.glance.appwidget.GlanceRemoteViewsService
-ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:50:9-53:72
+ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:55:9-58:72
 	android:exported
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:52:13-36
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:57:13-36
 	android:permission
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:53:13-69
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:58:13-69
 	android:name
-		ADDED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\91fe5c63c31191b850e75e2a1f8b507c\transformed\glance-appwidget-1.0.0\AndroidManifest.xml:51:13-78
+		ADDED from [androidx.glance:glance-appwidget:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\330f9162d1968fdf0e51c2b0068cc1a5\transformed\glance-appwidget-1.1.0\AndroidManifest.xml:56:13-78
 service#androidx.core.widget.RemoteViewsCompatService
-ADDED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:24:9-27:63
+ADDED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:24:9-27:63
 	tools:ignore
-		ADDED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:27:13-60
+		ADDED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:27:13-60
 	android:permission
-		ADDED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:26:13-69
+		ADDED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:26:13-69
 	android:name
-		ADDED from [androidx.core:core-remoteviews:1.0.0] C:\Users\yant\.gradle\caches\transforms-3\66856e9982f6cb613e21fae32a61020e\transformed\core-remoteviews-1.0.0\AndroidManifest.xml:25:13-73
+		ADDED from [androidx.core:core-remoteviews:1.1.0] C:\Users\yant\.gradle\caches\transforms-3\2f06955b3571408d0ddd9443389b0ea2\transformed\core-remoteviews-1.1.0\AndroidManifest.xml:25:13-73
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\yant\.gradle\caches\transforms-3\e5a20f1fc905537ac2a8b3c08e5cd9c7\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
 	android:name

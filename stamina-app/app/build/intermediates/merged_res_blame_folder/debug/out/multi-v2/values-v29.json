@@ -4,14 +4,14 @@
             "outputFile": "com.tili.stamina.app-mergeDebugResources-67:/values-v29/values-v29.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yant\\.gradle\\caches\\transforms-3\\91fe5c63c31191b850e75e2a1f8b507c\\transformed\\glance-appwidget-1.0.0\\res\\values-v29\\values-v29.xml",
+                    "source": "C:\\Users\\yant\\.gradle\\caches\\transforms-3\\330f9162d1968fdf0e51c2b0068cc1a5\\transformed\\glance-appwidget-1.1.0\\res\\values-v29\\values-v29.xml",
                     "from": {
-                        "startLines": "2,6,10,14,15,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,247,441,635,724,790",
-                        "endLines": "5,9,13,14,15,16",
-                        "endColumns": "12,12,12,88,65,65",
-                        "endOffsets": "242,436,630,719,785,851"
+                        "startLines": "2,5,19,22,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,244,1048,1239,1430,1519,1585",
+                        "endLines": "4,18,21,24,25,26,27",
+                        "endColumns": "12,12,12,12,88,65,65",
+                        "endOffsets": "239,1043,1234,1425,1514,1580,1646"
                     }
                 }
             ]

@@ -51,6 +51,7 @@
     <string msgid="1890207353314751437" name="dropdown_menu">"Menú desplegable"</string>
     <string msgid="5974471714631304645" name="expanded">"S\'ha desplegat"</string>
     <string msgid="2863935784364843033" name="glance_error_layout_text">"Consulta l\'error exacte fent servir "<b><tt>"adb logcat"</tt></b>" i cercant "<b><tt>"GlanceAppWidget"</tt></b></string>
+    <string msgid="5191168365305634625" name="glance_error_layout_text_v2">"No es pot mostrar el contingut"</string>
     <string msgid="3631961919234443531" name="glance_error_layout_title"><b>"Error de Glance App Widget"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"En curs"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Marcat parcialment"</string>

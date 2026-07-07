@@ -51,6 +51,7 @@
     <string msgid="1890207353314751437" name="dropdown_menu">"ڈراپ ڈاؤن مینیو"</string>
     <string msgid="5974471714631304645" name="expanded">"پھیلایا گیا"</string>
     <string msgid="2863935784364843033" name="glance_error_layout_text">"‏"<b><tt>"GlanceAppWidget"</tt></b>" کو تلاش کرتے ہوئے "<b><tt>"adb logcat"</tt></b>" کا استعمال کر کے اصل خرابی کو چیک کریں"</string>
+    <string msgid="5191168365305634625" name="glance_error_layout_text_v2">"مواد نہیں دکھایا جاسکتا"</string>
     <string msgid="3631961919234443531" name="glance_error_layout_title">"‏"<b>"Glance App Widget کی خرابی"</b></string>
     <string msgid="6827826412747255547" name="in_progress">"پیشرفت میں"</string>
     <string msgid="7933458017204019916" name="indeterminate">"جزوی طور پر چیک کردہ"</string>

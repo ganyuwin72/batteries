@@ -93,6 +93,7 @@ color glance_colorSurfaceInverse
 color glance_colorSurfaceVariant
 color glance_colorTertiary
 color glance_colorTertiaryContainer
+color glance_colorWidgetBackground
 color glance_default_check_box
 color glance_default_radio_button
 color glance_default_switch_thumb
@@ -122,6 +123,9 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen glance_component_button_corners
+dimen glance_component_circle_icon_button_corners
+dimen glance_component_square_icon_button_corners
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -153,8 +157,16 @@ drawable glance_btn_radio_on_mtrl
 drawable glance_btn_radio_on_to_off_mtrl_animation
 drawable glance_button_outline
 drawable glance_button_ripple
+drawable glance_component_btn_circle
+drawable glance_component_btn_filled
+drawable glance_component_btn_outline
+drawable glance_component_btn_square
+drawable glance_component_circle_button_ripple
+drawable glance_component_m3_button_ripple
+drawable glance_component_square_button_ripple
 drawable glance_error_layout_background
 drawable glance_loading_layout_background
+drawable glance_progress_horizontal
 drawable glance_ripple
 drawable glance_switch_thumb_animated
 drawable glance_switch_thumb_off
@@ -326,7 +338,6 @@ id deletedViewId
 id dialog_button
 id edit_text_id
 id error_text_view
-id error_title_view
 id forever
 id glanceView
 id glanceViewStub
@@ -1624,6 +1635,7 @@ string dropdown_menu
 string estimated_full_label
 string expanded
 string glance_error_layout_text
+string glance_error_layout_text_v2
 string glance_error_layout_title
 string in_progress
 string indeterminate
@@ -1702,6 +1714,7 @@ style Glance_AppWidget_SwitchThumb
 style Glance_AppWidget_SwitchTrack
 style Glance_AppWidget_Text
 style Glance_AppWidget_TextAppearance_Bold
+style Glance_AppWidget_TextAppearance_DeviceDefaultFontFamily
 style Glance_AppWidget_TextAppearance_Medium
 style Glance_AppWidget_TextAppearance_Normal
 style Glance_AppWidget_Theme
