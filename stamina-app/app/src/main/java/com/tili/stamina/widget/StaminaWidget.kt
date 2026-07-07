@@ -21,7 +21,6 @@ import androidx.glance.appwidget.action.actionRunCallback
 import androidx.glance.appwidget.background
 import androidx.glance.appwidget.cornerRadius
 import androidx.glance.appwidget.provideContent
-import androidx.glance.Color
 import androidx.glance.ColorProvider
 import androidx.glance.unit.dp
 import androidx.glance.layout.Alignment
@@ -151,7 +150,7 @@ fun WidgetContent(state: WidgetState) {
         Box(
             modifier = GlanceModifier
                 .fillMaxSize()
-                .background(ColorProvider(Color.Black.copy(alpha = 0.45f))),
+                .background(ColorProvider(0x72000000)),
             content = {}
         )
 
@@ -172,7 +171,7 @@ fun WidgetContent(state: WidgetState) {
                         Box(
                             modifier = GlanceModifier
                                 .size(24.dp)
-                                .background(ColorProvider(Color(0xFF10B981L)))
+                                .background(ColorProvider(0xFF10B981L))
                                 .cornerRadius(6.dp),
                             contentAlignment = Alignment.Center
                         ) {
@@ -190,7 +189,7 @@ fun WidgetContent(state: WidgetState) {
                                 style = TextStyle(
                                     fontSize = 12.sp,
                                     fontWeight = FontWeight.Bold,
-                                    color = ColorProvider(Color.White)
+                                    color = ColorProvider(0xFFFFFFFFL)
                                 )
                             )
                             Text(
@@ -202,9 +201,9 @@ fun WidgetContent(state: WidgetState) {
                                 style = TextStyle(
                                     fontSize = 10.sp,
                                     color = if (state.isFull)
-                                        ColorProvider(Color(0xFF34D399L))
+                                        ColorProvider(0xFF34D399L)
                                     else
-                                        ColorProvider(Color.White.copy(alpha = 0.7f))
+                                        ColorProvider(0xB2FFFFFFL)
                                 )
                             )
                         }
@@ -219,7 +218,7 @@ fun WidgetContent(state: WidgetState) {
                             style = TextStyle(
                                 fontSize = 30.sp,
                                 fontWeight = FontWeight.Bold,
-                                color = ColorProvider(Color.White)
+                                color = ColorProvider(0xFFFFFFFFL)
                             )
                         )
                         Text(
@@ -227,7 +226,7 @@ fun WidgetContent(state: WidgetState) {
                             style = TextStyle(
                                 fontSize = 10.sp,
                                 fontWeight = FontWeight.Bold,
-                                color = ColorProvider(Color.White.copy(alpha = 0.6f))
+                                color = ColorProvider(0x99FFFFFFL)
                             )
                         )
                     }
@@ -247,7 +246,7 @@ fun WidgetContent(state: WidgetState) {
                     modifier = GlanceModifier
                         .fillMaxWidth(progress)
                         .height(8.dp)
-                        .background(ColorProvider(Color(0xFF34D399L))),
+                        .background(ColorProvider(0xFF34D399L)),
                     content = {}
                 )
             }
@@ -264,7 +263,7 @@ fun WidgetContent(state: WidgetState) {
                     style = TextStyle(
                         fontSize = 9.sp,
                         fontWeight = FontWeight.Bold,
-                        color = ColorProvider(Color.White.copy(alpha = 0.6f))
+                        color = ColorProvider(0x99FFFFFFL)
                     )
                 )
 
@@ -273,7 +272,7 @@ fun WidgetContent(state: WidgetState) {
                 // -20 按钮
                 Box(
                     modifier = GlanceModifier
-                        .background(ColorProvider(Color.White.copy(alpha = 0.15f)))
+                        .background(ColorProvider(0x26FFFFFFL))
                         .cornerRadius(8.dp)
                         .clickable(
                             actionRunCallback<ConsumeCallback>(
@@ -289,7 +288,7 @@ fun WidgetContent(state: WidgetState) {
                         style = TextStyle(
                             fontSize = 11.sp,
                             fontWeight = FontWeight.Bold,
-                            color = ColorProvider(Color.White)
+                            color = ColorProvider(0xFFFFFFFFL)
                         )
                     )
                 }
@@ -299,7 +298,7 @@ fun WidgetContent(state: WidgetState) {
                 // -40 按钮
                 Box(
                     modifier = GlanceModifier
-                        .background(ColorProvider(Color.White.copy(alpha = 0.15f)))
+                        .background(ColorProvider(0x26FFFFFFL))
                         .cornerRadius(8.dp)
                         .clickable(
                             actionRunCallback<ConsumeCallback>(
@@ -315,7 +314,7 @@ fun WidgetContent(state: WidgetState) {
                         style = TextStyle(
                             fontSize = 11.sp,
                             fontWeight = FontWeight.Bold,
-                            color = ColorProvider(Color.White)
+                            color = ColorProvider(0xFFFFFFFFL)
                         )
                     )
                 }
