@@ -186,7 +186,7 @@ fun WidgetContent(state: WidgetState) {
 
                         Column {
                             Text(
-                                text = "当前剩余体力",
+                                text = "当前剩余原粹树脂",
                                 style = TextStyle(
                                     fontSize = 12.sp,
                                     fontWeight = FontWeight.Bold,

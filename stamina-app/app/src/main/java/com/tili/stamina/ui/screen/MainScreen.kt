@@ -178,7 +178,7 @@ private fun TopBar(onSettingsClick: () -> Unit) {
             )
             Spacer(modifier = Modifier.size(6.dp))
             Text(
-                text = "体力同步中",
+                text = "原粹树脂同步中",
                 fontSize = 11.sp,
                 fontWeight = FontWeight.Medium,
                 color = White90.copy(alpha = 0.9f)

@@ -68,9 +68,9 @@ class ConsumeCallback : androidx.glance.appwidget.action.ActionCallback {
             // 5. 刷新小组件显示
             StaminaWidget().update(context, glanceId)
 
-            Log.d(TAG, "Widget 消耗 $points 点体力: ${result.stamina} → $finalStamina")
+            Log.d(TAG, "Widget 消耗 $points 点原粹树脂: ${result.stamina} → $finalStamina")
         } catch (e: Exception) {
-            Log.e(TAG, "小组件消耗体力失败", e)
+            Log.e(TAG, "小组件消耗原粹树脂失败", e)
         }
     }
 }
@@ -110,7 +110,7 @@ class WidgetActionReceiver : BroadcastReceiver() {
 
                 StaminaWidget.updateWidget(context)
             } catch (e: Exception) {
-                Log.e("WidgetActionReceiver", "消耗体力失败", e)
+                Log.e("WidgetActionReceiver", "消耗原粹树脂失败", e)
             }
         }
     }

@@ -56,14 +56,14 @@ fun RecoveryPanel(
     ) {
         if (isFull) {
             Text(
-                text = "体力已满，处于巅峰状态",
+                text = "原粹树脂已满",
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Medium,
                 color = Emerald400
             )
         } else {
             Text(
-                text = "体力正在恢复中…",
+                text = "原粹树脂正在恢复中…",
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Medium,
                 color = Amber400
@@ -93,7 +93,7 @@ fun RecoveryPanel(
 
             // 预计充满
             Text(
-                text = "预计充满还需要：${formatHoursMinutes(secondsToFull)}",
+                text = "预计恢复满还需要：${formatHoursMinutes(secondsToFull)}",
                 fontSize = 11.sp,
                 color = White60.copy(alpha = 0.7f)
             )

@@ -154,7 +154,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
             if (refreshed.stamina <= 0) {
                 _uiState.update {
-                    it.copy(toastMessage = "体力已经透支！请先休息恢复体力。")
+                    it.copy(toastMessage = "请先等待原粹树脂恢复。")
                 }
                 return@launch
             }
@@ -171,7 +171,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                         newStamina,
                         StaminaCalculator.RECOVERY_INTERVAL_MS / 1000L
                     ),
-                    toastMessage = "⚡ 记录成功: [$actionName] 消耗 $points 点体力"
+                    toastMessage = "⚡ 记录成功: [$actionName] 消耗 $points 点原粹树脂"
                 )
             }
 
