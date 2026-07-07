@@ -12,7 +12,7 @@ android {
         minSdk = 26
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0.0"
+        versionName = "1.1.0"
 
         vectorDrawables {
             useSupportLibrary = true
@@ -77,9 +77,9 @@ dependencies {
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
     // Glance — Jetpack 桌面小组件框架
-    implementation("androidx.glance:glance:1.0.0")
-    implementation("androidx.glance:glance-appwidget:1.0.0")
-    implementation("androidx.glance:glance-material3:1.0.0")
+    implementation("androidx.glance:glance:1.1.0")
+    implementation("androidx.glance:glance-appwidget:1.1.0")
+    implementation("androidx.glance:glance-material3:1.1.0")
 
     // Coil — 图片加载 (支持网络图片和本地 URI)
     implementation("io.coil-kt:coil-compose:2.5.0")
