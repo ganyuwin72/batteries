@@ -195,6 +195,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable ycsz_background
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1574,6 +1575,9 @@ layout size_wrap_match
 layout size_wrap_wrap
 layout widget_layout_placeholder
 mipmap ic_launcher
+mipmap ycsz
+mipmap ycsz_foreground
+mipmap ycsz_round
 raw glance_appwidget_keep
 string androidx_startup
 string app_bg_label

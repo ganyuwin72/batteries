@@ -657,7 +657,7 @@
     <item name="root_alias_399" type="layout">@layout/root_match_match</item>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_bg_label">主应用背景图片</string>
-    <string name="app_name">体力</string>
+    <string name="app_name">原粹树脂</string>
     <string name="bottom_sheet_collapse_description">Collapse bottom sheet</string>
     <string name="bottom_sheet_dismiss_description">Dismiss bottom sheet</string>
     <string name="bottom_sheet_drag_handle_description">Drag handle</string>
@@ -672,8 +672,8 @@
     <string name="close_drawer">"Close navigation menu"</string>
     <string name="close_sheet">"Close sheet"</string>
     <string name="collapsed">Collapsed</string>
-    <string name="consume_empty">体力已经透支！请先休息恢复体力。</string>
-    <string name="consume_success">体力已成功扣除！</string>
+    <string name="consume_empty">请先等待原粹树脂恢复。</string>
+    <string name="consume_success">原粹树脂已成功扣除！</string>
     <string name="custom_deduct">自定义扣除点数…</string>
     <string name="date_input_headline">Entered date</string>
     <string name="date_input_headline_description">Entered date: %1$s</string>
@@ -723,7 +723,7 @@
     <string name="glance_error_layout_title"><b>Glance App Widget Error</b></string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Partially checked</string>
-    <string name="invalid_input">请先输入有效的体力扣减点数</string>
+    <string name="invalid_input">请先输入有效的原粹树脂扣减点数</string>
     <string name="m3c_bottom_sheet_pane_title">Bottom Sheet</string>
     <string name="max_stamina_label">MAX 200</string>
     <string name="meditation">冥想</string>
@@ -741,9 +741,9 @@
     <string name="search_bar_search">Search</string>
     <string name="selected">Selected</string>
     <string name="snackbar_dismiss">Dismiss</string>
-    <string name="stamina_full">体力已满，处于巅峰状态</string>
-    <string name="stamina_recovering">体力正在恢复中…</string>
-    <string name="stamina_sync">体力同步中</string>
+    <string name="stamina_full">原粹树脂已满</string>
+    <string name="stamina_recovering">原粹树脂正在恢复中…</string>
+    <string name="stamina_sync">原粹树脂同步中</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="suggestions_available">Suggestions below</string>
     <string name="switch_role">Switch</string>
@@ -768,7 +768,7 @@
     <string name="tooltip_pane_description">Tooltip</string>
     <string name="widget_bg_label">桌面小组件背景图片</string>
     <string name="widget_quick_consume">快捷消耗:</string>
-    <string name="widget_title">当前剩余体力</string>
+    <string name="widget_title">当前剩余原粹树脂</string>
     <string name="writing">写作</string>
     <style name="Base.Glance.AppWidget.Background" ns1:ignore="ResourceName" parent="">
         <item name="android:id">@android:id/background</item>
@@ -918,23 +918,14 @@
         <attr format="reference" name="fontProviderCerts"/>
         
         <attr name="fontProviderFetchStrategy">
-            <!-- The blocking font fetch works as follows.
-              First, check the local cache, then if the requested font is not cached, request the
-              font from the provider and wait until it is finished.  You can change the length of
-              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-              default typeface will be used instead. -->
+            
             <enum name="blocking" value="0"/>
-            <!-- The async font fetch works as follows.
-              First, check the local cache, then if the requeted font is not cached, trigger a
-              request the font and continue with layout inflation. Once the font fetch succeeds, the
-              target text view will be refreshed with the downloaded font data. The
-              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            
             <enum name="async" value="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
-            <!-- A special value for the timeout. In this case, the blocking font fetching will not
-              timeout and wait until a reply is received from the font provider. -->
+            
             <enum name="forever" value="-1"/>
         </attr>
         

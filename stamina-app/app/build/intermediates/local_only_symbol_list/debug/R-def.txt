@@ -17,8 +17,12 @@ drawable bg_preset_2
 drawable bg_preset_3
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ycsz_background
 layout widget_layout_placeholder
 mipmap ic_launcher
+mipmap ycsz
+mipmap ycsz_foreground
+mipmap ycsz_round
 string app_bg_label
 string app_name
 string consume_empty
